@@ -1,0 +1,56 @@
+funcao calculaSoma(inteiro num, inteiro num2){
+			escreva(Digite o 1° numero )
+			leia(num)
+			escreva(Agora o 2° numero )
+			leia(num2)
+		inteiro soma = num + num2
+		escreva(A soma é , soma)
+		}
+		funcao calculaSubtracao(inteiro num, inteiro num2){
+			escreva(Digite o 1° numero )
+			leia(num)
+			escreva(Agora o 2° numero )
+			leia(num2)
+		inteiro subtracao = num - num2
+		escreva(A subtração é , subtracao)
+		}
+		funcao calculaMultiplicacao(inteiro num, inteiro num2){
+			escreva(Digite o 1° numero )
+			leia(num)
+			escreva(Agora o 2° numero )
+			leia(num2)
+		inteiro multi = num  num2
+		escreva(A multiplicação é , multi)
+			}
+			funcao calculaDivisao(inteiro num, inteiro num2){
+			escreva(Digite o 1° numero )
+			leia(num)
+			escreva(Agora o 2° numero )
+			leia(num2)
+		inteiro div = num  num2
+		escreva(A divisão é , div)
+			}
+	funcao inicio()
+	{
+		caracter opcao
+		escreva(Bem vindo, por favor escolha uma opção n )
+		escreva( + para somar , - para subtrair ,  para multiplicar ,  para dividir )
+			leia(opcao)
+
+				escolha(opcao){
+
+			caso '+' calculaSoma(0,0)
+			
+			pare
+			caso '-' calculaSubtracao(0,0)
+			
+			pare
+			caso '' calculaMultiplicacao(0,0)
+			
+			pare
+			caso '' calculaDivisao(0,0)
+			
+			pare
+			caso contrario escreva(Opção invalida)
+			pare
+		}
